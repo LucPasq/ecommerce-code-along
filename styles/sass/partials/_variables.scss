@@ -1,6 +1,3 @@
-@use "./partials/setup";
-@use "./partials/variables";
-@use "./partials/typography";
 // COLOURS:
 // primary text (blue): #084b6d;
 // secondary (light blue): #f4fcff;
@@ -9,12 +6,15 @@
 // quinary (orange): #ffd698;
 // pastel blue: #d3f0f9 
 // white: #fff; 
+$primary: #084b6d;
+$secondary: #f4fcff;
+$tertiary: #f8fbf3;
+$quaternary: #fff5f5;
+$quinary: #ffd698;
+$pastelBlue:#d3f0f9;
+$solidWhite: #fff;
 
+$headingFont: "Young Serif";
+$bodyFont: "Jakarta Sans";
 
-
-// HEADINGS:
-// h1: 28px;
-// h2: 40px;
-// h3: 54px;
-// h4: 34px;
-// h5: 14px;
+$baseFontSize: 1rem;
