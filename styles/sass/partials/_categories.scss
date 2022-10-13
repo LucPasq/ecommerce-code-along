@@ -1,0 +1,12 @@
+@use './variables';
+
+.categoryGallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .items{
+        width: 40%;
+        //width: calc(50% - 50px);
+        margin: 50px 25px 25px;
+    }
+}

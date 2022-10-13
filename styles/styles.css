@@ -487,3 +487,18 @@ header .headerContentContainer {
   width: 55%;
   padding: 0 40px;
 }
+
+.categoryGallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.categoryGallery .items {
+  width: 40%;
+  margin: 50px 25px 25px;
+}
